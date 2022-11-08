@@ -26,7 +26,7 @@
     <p>
         <?php
         echo ($table["gender"] === "Homme" ? "Mr" : "Mme") . " " . $table["name"] . " " . $table["surname"] . "<br>";
-        echo "J'ai " . $table["age"] . " ans et je mesure " . $table["height"] . "m.";
+        echo "J'ai " . $table["age"] . " ans et je mesure " . number_format($table["height"], 2, ",") . "m.";
         ?>
     </p>
 </section>

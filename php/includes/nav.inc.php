@@ -1,6 +1,6 @@
 <nav>
-    <ul class="nav flex-column">
-        <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+    <ul class="nav flex-column text-center">
+        <li class="nav-item btn-light"><a href="/" class="nav-link">Home</a></li>
 
         <?php
             if (isset($_SESSION["table"])) {

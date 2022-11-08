@@ -15,11 +15,11 @@ if (isset($_SESSION["table"])) {
 
         <div class="container">
             <div class="row">
-                <div class="col-3">
+                <div class="col-12 col-md-3 col-lg-3">
                     <?php include "./includes/nav.inc.php"; ?>
                 </div>
 
-                <div class="col-9">
+                <div class="col-12 col-md-3 col-lg-9">
                     <?php
                     if (isset($_GET["debugging"])) {
                         include "./pages/debugging.php";

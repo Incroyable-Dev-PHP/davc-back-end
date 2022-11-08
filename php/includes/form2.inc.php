@@ -33,42 +33,42 @@
 
         <div class="card col-md-4 mx-auto my-1">
             <div class="form-check">
-                <input type="checkbox" class="form-check-input" value="html" id="html" name="knowledges">
+                <input type="checkbox" class="form-check-input" value="HTML" id="html" name="html">
                 <label for="html" class="form-check-label">HTML</label>
             </div>
 
             <div class="form-check">
-                <input type="checkbox" class="form-check-input" value="css" id="css" name="knowledges">
+                <input type="checkbox" class="form-check-input" value="CSS" id="css" name="css">
                 <label for="css" class="form-check-label">CSS</label>
             </div>
 
             <div class="form-check">
-                <input type="checkbox" class="form-check-input" value="javascript" id="javascript" name="knowledges">
+                <input type="checkbox" class="form-check-input" value="JavaScript" id="javascript" name="javascript">
                 <label for="javascript" class="form-check-label">JavaScript</label>
             </div>
 
             <div class="form-check">
-                <input type="checkbox" class="form-check-input" value="php" id="php" name="knowledges">
+                <input type="checkbox" class="form-check-input" value="PHP" id="php" name="php">
                 <label for="php" class="form-check-label">PHP</label>
             </div>
 
             <div class="form-check">
-                <input type="checkbox" class="form-check-input" value="mysql" id="mysql" name="knowledges">
+                <input type="checkbox" class="form-check-input" value="MySQL" id="mysql" name="mysql">
                 <label for="mysql" class="form-check-label">MySQL</label>
             </div>
 
             <div class="form-check">
-                <input type="checkbox" class="form-check-input" value="bootstrap" id="bootstrap" name="knowledges">
+                <input type="checkbox" class="form-check-input" value="Bootstrap" id="bootstrap" name="bootstrap">
                 <label for="bootstrap" class="form-check-label">Bootstrap</label>
             </div>
 
             <div class="form-check">
-                <input type="checkbox" class="form-check-input" value="symfony" id="symfony" name="knowledges">
+                <input type="checkbox" class="form-check-input" value="Symfony" id="symfony" name="symfony">
                 <label for="symfony" class="form-check-label">Symfony</label>
             </div>
 
             <div class="form-check">
-                <input type="checkbox" class="form-check-input" value="react" id="react" name="knowledges">
+                <input type="checkbox" class="form-check-input" value="React" id="react" name="react">
                 <label for="react" class="form-check-label">React</label>
             </div>
 
@@ -86,7 +86,7 @@
         <div class="card col-11 mx-auto my-1">
             <div class="mb-3">
                 <label for="file" class="form-label">Joindre une image (jpg ou png)</label>
-                <input class="form-control" type="file" id="file">
+                <input class="form-control" name="file" type="file" id="file">
             </div>
         </div>
 

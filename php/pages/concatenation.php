@@ -6,7 +6,7 @@
         <?php
         echo ($table["gender"] === "Homme" ? "Mr" : "Mme") . " " . $table["name"] . " " . $table["surname"] . "<br>";
         echo "J'ai " . $table["age"] . " ans et je mesure " . $table["height"] . "m.";
-        ?> 
+        ?>
     </p>
 
     <?php
@@ -19,7 +19,7 @@
         <?php
         echo ($table["gender"] === "Homme" ? "Mr" : "Mme") . " " . $table["name"] . " " . $table["surname"] . "<br>";
         echo "J'ai " . $table["age"] . " ans et je mesure " . $table["height"] . "m.";
-        ?> 
+        ?>
     </p>
 
     <h3>===> Affichage d'une virgule à la place du point pour la taille</h3>
@@ -27,6 +27,6 @@
         <?php
         echo ($table["gender"] === "Homme" ? "Mr" : "Mme") . " " . $table["name"] . " " . $table["surname"] . "<br>";
         echo "J'ai " . $table["age"] . " ans et je mesure " . $table["height"] . "m.";
-        ?> 
+        ?>
     </p>
 </section>

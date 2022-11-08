@@ -1,5 +1,6 @@
 <?php
-function readTable() {
+function readTable()
+{
     if (!isset($table)) {
         if (isset($_SESSION["table"])) {
             $table = $_SESSION["table"];
@@ -8,7 +9,13 @@ function readTable() {
 
     $i = 0;
     foreach ($table as $key => $value) {
-        echo "à la ligne n°" . $i . " correspond la clé \"" . $key . "\" et contient \"" . $value . "\"<br>";
+        if ($key === "file") {
+            echo "à la ligne n°" . $i . " correspond la clé \"" . $key . "\" et contient<br>";
+            echo "<img src=\"./uploaded/" . $value["name"] . "\">";
+        } else {
+            echo "à la ligne n°" . $i . " correspond la clé \"" . $key . "\" et contient \"" . $value . "\"<br>";
+        }
+
         $i++;
     }
 }

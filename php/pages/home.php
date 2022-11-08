@@ -1,6 +1,6 @@
 <section>
     <?php if (isset($_GET["add"])) { ?>
-        <h1 class="text-center">Ajouter des données</h1>
+        <h2 class="text-center">Ajouter des données</h2>
 
         <form method="POST">
             <div class="mb-3">

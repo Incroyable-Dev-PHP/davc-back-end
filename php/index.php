@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+if (isset($_SESSION["table"])) {
+    $table = $_SESSION["table"];
+}
+?>
+
 <!DOCTYPE html>
 <html>
     <?php include "./includes/head.inc.php"; ?>
@@ -12,7 +20,21 @@
                 </div>
 
                 <div class="col-9">
-                    <?php include "./pages/home.php"; ?>
+                    <?php
+                    if (isset($_GET["debugging"])) {
+                        include "./pages/debugging.php";
+                    } elseif (isset($_GET["concatenation"])) {
+                        include "./pages/concatenation.php";
+                    } elseif (isset($_GET["loop"])) {
+                        include "./pages/loop.php";
+                    } elseif (isset($_GET["function"])) {
+                        include "./pages/function.php";
+                    } elseif (isset($_GET["del"])) {
+                        include "./pages/del.php";
+                    } else {
+                        include "./pages/home.php";
+                    }
+                    ?>
                 </div>
             </div>
         </div>

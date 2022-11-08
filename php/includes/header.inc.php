@@ -1,5 +1,4 @@
 <header class="d-none d-sm-block">
-
     <div class="card bg-dark rounded-0">
         <div class="row g-0">
 
@@ -20,5 +19,4 @@
 
     <div class="p-2 bg-dark mt-2"></div>
     <div class="p-1 bg-dark mt-2 mb-3"></div>
-
 </header>

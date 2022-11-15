@@ -4,4 +4,10 @@
     <?php
     var_dump($table);
     ?>
+    <p>La version avec print_r() si jamais :</p>
+    <pre>
+        <?php
+        print_r($table);
+        ?>
+    </pre>
 </section>

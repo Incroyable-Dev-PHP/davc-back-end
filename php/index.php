@@ -8,10 +8,10 @@ if (isset($_SESSION["table"])) {
 
 <!DOCTYPE html>
 <html>
-<?php include "./includes/head.inc.php"; ?>
+<?php include "./includes/head.inc.html"; ?>
 
 <body>
-    <?php include "./includes/header.inc.php"; ?>
+    <?php include "./includes/header.inc.html"; ?>
 
     <div class="container">
         <div class="row">
@@ -43,7 +43,7 @@ if (isset($_SESSION["table"])) {
         </div>
     </div>
 
-    <?php include "./includes/footer.inc.php"; ?>
+    <?php include "./includes/footer.inc.html"; ?>
 </body>
 
 </html>
